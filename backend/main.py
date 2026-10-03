@@ -6,9 +6,9 @@ from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("8948268391:AAFO-nS88Lzr-p_JreaGGFbKHYO8CEN8t6o", "")
 
-app = FastAPI(title="Telegram Book Tracker API")
+app = FastAPI(title="Telegram Book Tracker AP")
 
 app.add_middleware(
     CORSMiddleware,
